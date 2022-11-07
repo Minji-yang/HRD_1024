@@ -1,0 +1,90 @@
+@charset "UTF-8";
+header{
+	background:blue;
+	color:white;
+	text-align:center;
+	font-size:1.3em;
+	line-height:85px;
+	height:15%;
+	width:100%;
+}
+
+nav{
+	height:5%;
+	background:mediumpurple;
+	line-height:40px;
+}
+
+nav li a{
+text-decoration:none;
+color:white;}
+
+nav li{
+	display:inline;
+	padding:0 4%;
+}
+
+*{padding:0;
+  margin:0;}
+  
+section{height:75%;}
+
+html,body{
+	width:100%;
+	height:100%;
+}
+.he3{
+ 	text-align:center; 
+ 	font-size:27px;
+ 	color:royalblue;
+ 	margin-top:20px;
+  }
+  
+  ol li{
+  margin:0 20px}
+  
+  footer{
+  height:5%;
+  background:blue;
+  color:white;
+  text-align:center;
+  line-height:30px;
+  }
+  
+ table{
+  border-collapse:collapse;
+  border:2px solid black;
+  text-align:center; 
+  margin:20px auto;
+  
+  }
+  
+ .select table th{
+    border-bottom:2px solid black;
+    width:100px;
+    height:27px;
+    font-size:16px;
+    background:royalblue;
+    color:#fff;}
+   
+  .select table .phone{
+ width:200px;}
+  
+ .insert table th{
+ width:150px; height:40px;
+ background:royalblue;
+ color:white;
+ 
+ }
+ .insert table td{ width:70%;}
+ .insert select{ width:60%;
+ height:30px;
+ font-size:16px;}
+ .insert input[type="text"]{
+  width:99%;
+  height:30px;}
+.insert input[type="button"],
+.insert input[type="reset"]{width:35%;
+  color:royalblue; font-weight:bold;}
+ .insert input[type="reset"]{
+  color:red;}
